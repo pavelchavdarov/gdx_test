@@ -9,7 +9,7 @@ import java.util.HashMap;
  */
 
 public interface IBoard {
-    HashMap<Vector3, Entity> getBoard();
+    HashMap<Vector3, Entity> showBoard();
 
     void moveStone(Vector3 oldPoint, Vector3 newPoint);
 

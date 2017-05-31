@@ -22,7 +22,7 @@ public class Board implements IBoard {
     }
 
     @Override
-    public HashMap<Vector3, Entity> getBoard() {
+    public HashMap<Vector3, Entity> showBoard() {
         HashMap<Vector3, Entity> retBoard = new HashMap<Vector3, Entity>();
         for (Vector3 p : Stones.keySet()){
             retBoard.put(p, Stones.get(p).getFace());
